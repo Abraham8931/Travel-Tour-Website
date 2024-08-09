@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.min.css">
+    <title>Travel & Tour</title>
+</head>
+<body>
+<!--Header section-->
+<!--<div>-->
+  <div class="background-container">
+  <nav class="navbar navbar-expand-md navabr-light bg-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><h3 class="nav-brand">TRAVEL</h3></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a href="#Homepage" class="nav-link active" aria-current="page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#Book" class="nav-link">Book</a>
+        </li>
+        <li class="nav-item">
+          <a href="#Packages" class="nav-link">Packages</a>
+        </li>
+        <li class="nav-item">
+          <a href="#Services" class="nav-link">Services</a>
+        </li>
+        <li class="nav-item">
+          <a href="#Gallery" class="nav-link">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a href="#Review" class="nav-link">Review</a>
+        </li>
+        <li class="nav-item">
+          <a href="#Contact" class="nav-link">Contact</a>
+        </li>
+        </ul>
+    </div>
+    <a href="#" class="nav-link"><i class="fa fa-user"></i></a>
+    <a href="#" class="nav-link"><i class="fa fa-search"></i></a>
+  </div>
+  </nav>
+</div>
+</header>
+<!--End of the header section-->
+<!--Section 1-->
+<!--Carousel-slide-->
+
+<section id="Homepage">
+  <div id="videoCarousel" class="carousel slide" data-bs-ride="carousel" itemid="Homepage">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <video width="100%" controlsList="none" autoplay loop muted>
+          <source src="Videos/coverr-beach-to-the-ocean-170-1080p.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="carousel-item">
+        <video width="100%" controlsList="none" autoplay loop muted>
+          <source src="Videos/coverr-a-road-in-norway-4488-1080p.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="carousel-item">
+        <video width="100%" controlsList="none" autoplay loop muted>
+          <source src="Videos/coverr-hotel-in-the-philippines-2930-1080p.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <div class="carousel-text">
+      <h2 class="carousel-h2">ADVENTURE IS WORTHWHILE</h2>
+      <p class="carousel-p">Discover New Places With Us. Adventures Awaits</p>
+      <a href="#" class="carousel-link">Discover More</a>
+    </div>
+  </div>
+</section>
+<!--end of carousel-slide-->
+<!--start of book now section-->
+<br>
+<br>
+<section>
+  <div class="container" id="Book">
+    <h2 class="book-now">BOOK NOW</h2>
+    
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <img src="Images/travel-3122702_1280.jpg" alt="Travelling" class="img-fluid d-none d-md-block w-100%">
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <form action="" class="form-container">
+          <div class="form-group mb-4">
+            <label for="searchPlaces">Where To</label>
+            <input type="text" class="form-control" id="searchPlaces" aria-describedby="textHelp" placeholder="Search places">
+            <label for="numberOfGuests">How Many</label>
+            <input type="text" class="form-control" id="numberOfGuests" aria-describedby="textHelp" placeholder="number of guests">
+            <label for="dateOfArrivals">Arrival</label>
+            <input type="date" class="form-control" id="dateOfArrivals" aria-describedby="dateHelp" placeholder="dd/mm/yyyy">
+            <label for="dateOfDeparture">Departure</label>
+            <input type="date" class="form-control" id="dateOfDeparture" aria-describedby="dateHelp" placeholder="dd/mm/yyyy">
+            <br>
+            <button type="submit" class="custom-btn"><a href="#" class="form-link">Book Now</a></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<!--end of book now section-->
+<br>
+<!--start of packages section-->
+<section>
+  <div class="container" id="Packages">
+    <h2 class="packages">PACKAGES</h2>
+    <br>
+    <div class="card-carousel">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="card" id="myCard" style="width: 18rem;">
+            <img src="Images/vacation.jpeg" class="card-img-top" alt="Maldives">
+            <div class="card-body">
+              <i class="fa-solid fa-location-dot"><h6 class="card-title">Maldives</h6></i>
+              <p class="card-text">Adventure is wrothwhile. Discover new places with us. Adventures awaits</p>
+              <span class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </span>
+              <p class="card-text">$99.99 <s>$199.99</s></p>
+              <a href="#" class="custom-btn" id="custom-btn">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card" id="myCard" style="width: 18rem;">
+            <img src="Images/boat-ride.jpg" class="card-img-top" alt="Swizterland">
+            <div class="card-body">
+              <i class="fa-solid fa-location-dot"><h6 class="card-title">Swizterland</h6></i>
+              <p class="card-text">Adventure is wrothwhile. Discover new places with us. Adventures awaits</p>
+              <span class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </span>
+              <p class="card-text">$99.99 <s>$199.99</s></p>
+              <a href="#" class="custom-btn" id="custom-btn">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card" id="myCard" style="width: 18rem;">
+            <img src="Images/port-8431044_1280.jpg" class="card-img-top" alt="Italy">
+            <div class="card-body">
+              <i class="fa-solid fa-location-dot"><h6 class="card-title">Italy</h6></i>
+              <p class="card-text">Adventure is wrothwhile. Discover new places with us. Adventures awaits</p>
+              <span class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </span>
+              <p class="card-text">$99.99 <s>$199.99</s></p>
+              <a href="#" class="custom-btn" id="custom-btn">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+  <br>
+  <div class="container">
+    <button id="show-card-btn">Show More</button>
+    <br>
+    <div class="card-carousel" id="hidden-card">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="card" id="myCard" style="width: 18rem;">
+            <img src="Images/road-trip.jpg" class="card-img-top" alt="Mexico">
+            <div class="card-body">
+              <i class="fa-solid fa-location-dot"><h6 class="card-title">Mexico</h6></i>
+              <p class="card-text">Adventure is wrothwhile. Discover new places with us. Adventures awaits</p>
+              <span class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </span>
+              <p class="card-text">$99.99 <s>$199.99</s></p>
+              <a href="#" class="custom-btn" id="custom-btn">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card" id="myCard" style="width: 18rem;">
+            <img src="Images/man-dinner.jpg" class="card-img-top" alt="Egypt">
+            <div class="card-body">
+              <i class="fa-solid fa-location-dot"><h6 class="card-title">Egypt</h6></i>
+              <p class="card-text">Adventure is wrothwhile. Discover new places with us. Adventures awaits</p>
+              <span class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </span>
+              <p class="card-text">$99.99 <s>$199.99</s></p>
+              <a href="#" class="custom-btn" id="custom-btn">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="card" id="myCard" style="width: 18rem;">
+            <img src="Images/lady-dinner.jpg" class="card-img-top" alt="Greece">
+            <div class="card-body">
+              <i class="fa-solid fa-location-dot"><h6 class="card-title">Greece</h6></i>
+              <p class="card-text">Adventure is wrothwhile. Discover new places with us. Adventures awaits</p>
+              <span class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </span>
+              <p class="card-text">$99.99 <s>$199.99</s></p>
+              <a href="#" class="custom-btn" id="custom-btn">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+</section>
+<br>
+<br>
+<!--end of packages section-->
+<!--start of services-->
+<section>
+  <div class="container" id="Services">
+    <h2 class="book-now">SERVICES</h2>
+    <div class="row"> 
+      <div class="col-sm-12 col-md-4">
+        <span class="Service-icon"><i class="fa fa-hotel"></i></span>
+        <h4 class="book-now">Affordable Hotels</h4>
+        <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <span class="Service-icon"><i class="fa fa-utensils"></i></span>
+        <h4 class="book-now">Food And Drinks</h4>
+        <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <span class="Service-icon"><i class="fa fa-bullhorn"></i></span>
+        <h4 class="book-now">Safety Guide</h4>
+        <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row"> 
+      <div class="col-sm-12 col-md-4">
+        <span class="Service-icon"><i class="fa fa-globe"></i></span>
+        <h4 class="book-now">Around The World</h4>
+        <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <span class="Service-icon"><i class="fa fa-plane"></i></span>
+        <h4 class="book-now">Fastest Travel</h4>
+        <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <span class="Service-icon"><i class="fa fa-hiking"></i></span>
+        <h4 class="book-now">Adventures</h4>
+        <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<!--end of service section-->
+<!--start of gallery section-->
+<section>
+  <div class="container" id="Gallery">
+    <h2 class="book-now">GALLERY</h2>
+    <br>
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <div id="image-slider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Images/Greece.jpg" alt="Greece" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Greece night.jpg" alt="Greece" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Italy night.jpg" alt="Italy" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Norway.jpg" alt="Norway" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/road-trip.jpg" alt="Road trip" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Nice beach.jpg" alt="Beach" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/night-view.jpg" alt="Night view of Greece" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Pyramid.jpg" alt="Egypt" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/italy.jpg" alt="Italy" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/beautiful-resort.jpg" alt="Beach resort" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/201 Truly Inspiring Hiking Quotes To Make You Pack Bags To Mountains!.jpeg" alt="Beach resort" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Download premium image of Snow mountain landscape outdoors nature_  by Sakarin Sukmanatham about winter landscape, glacier, 8k, aerial view, and blue 12422102.jpeg" alt="Beach resort" class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Skydiving, New Zealand - Travel Adventure.jpeg" alt="Beach resort" class="img-fluid">
+            </div>
+            <a href="#image-slider" class="carousel-control-prev" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a href="#image-slider" class="carousel-control-next" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+          <br>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6">
+        <div class="gallery-text">
+          <h2>Snapshots of Life</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button type="submit" class="custom-btn"><a href="#" class="form-link">Book Now</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<!--end of gallery section-->
+<!--start of review section-->
+<Section>
+  <div class="container" id="Review">
+    <h2 class="book-now">REVIEW</h2>
+         <div class="row">
+          <div class="col-md-4">
+            <div class="card" id="card">
+              <img src="Images/black man.jpg" alt="Black man" class="card-img-top" id="card-img">
+              <div class="card-body" id="card-body">
+                <h5 class="card-title">John Doe</h5>
+              <p class="card-text">This is a testimonial about our page from our various customer about thier experience using our services.</p>
+              <span class="rating" id="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" id="card">
+              <img src="Images/happy man.jpg" alt="Happy man" class="card-img-top" id="card-img">
+              <div class="card-body" id="card-body">
+                <h5 class="card-title">John Doe</h5>
+              <p class="card-text">This is a testimonial about our page from our various customer about thier experience using our services.</p>
+              <span class="rating" id="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" id="card">
+              <img src="Images/white lady.jpg" alt="White lady" class="card-img-top" id="card-img">
+              <div class="card-body" id="card-body">
+                <h5 class="card-title">Jane Doe</h5>
+              <p class="card-text">This is a testimonial about our page from our various customer about thier experience using our services.</p>
+              <span class="rating" id="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </span>
+              </div>
+            </div>
+          </div>
+         </div>
+        </div>
+        </div>
+        <br>
+<div class="container">
+        <div class="row">
+           <div class="col-md-4">
+             <div class="card" id="card">
+               <img src="Images/white lady.jpg" alt="Happy woman" class="card-img-top" id="card-img">
+               <div class="card-body" id="card-body">
+                 <h5 class="card-title">Jane Doe</h5>
+               <p class="card-text">This is a testimonial about our page from our various customer about thier experience using our services.</p>
+               <span class="rating" id="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+               </span>
+               </div>
+             </div>
+           </div>
+           <div class="col-md-4">
+             <div class="card" id="card">
+               <img src="Images/black man.jpg" alt="White man" class="card-img-top" id="card-img">
+               <div class="card-body" id="card-body">
+                 <h5 class="card-title">John Doe</h5>
+               <p class="card-text">This is a testimonial about our page from our various customer about thier experience using our services.</p>
+               <span class="rating" id="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </span>
+               </div>
+             </div>
+           </div>
+           <div class="col-md-4">
+             <div class="card" id="card">
+               <img src="Images/happy man.jpg" alt="Indian woman" class="card-img-top" id="card-img">
+               <div class="card-body" id="card-body">
+                 <h5 class="card-title">Jane Doe</h5>
+               <p class="card-text">This is a testimonial about our page from our various customer about thier experience using our services.</p>
+               <span class="rating" id="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </span>
+               </div>
+             </div>
+           </div>
+          </div>
+         </div>
+         </div>
+  </div>
+</div>
+</Section>  
+<!--end of review section-->
+<br>
+<br>
+<!--start of contact section-->
+<section>
+  <div class="container" id="Contact">
+    <h2 class="book-now">CONTACT</h2>
+    <br>
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <img src="Images/travel-3122702_1280.jpg" alt="Adventure" class="img-fluid">
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <form action="" class="contact-form">
+       <div class="form-group">
+        <div class="row">
+          <div class="col-md-6">
+            <input type="text" class="form-control" id="text" placeholder="Enter your name" required>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="col-md-6">
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" autocomplete="email" required>
+          </div>
+          <br>
+          <br>
+            <div class="col-md-6">
+              <input type="tel" class="form-control" id="number" placeholder="Enter your phone number" required>
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+            </div>
+          </div>
+        </div>
+        <input type="text" class="form-control top-place" id="message" placeholder="Enter your message" required>
+        <br>
+        <button class="custom-btn" type="submit"> Send message</button>
+        </div>
+       </div>
+      </div>
+    </form>
+    </div>
+  </div>
+</section>
+<br>
+<br>
+<!--start of footer section-->
+<footer class="footer bg-light text-dark">
+  <div class="container-fluid">
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-12">
+          <h4 class="footer-text"> Our Branches</h4>
+            <span class="fa fa-location"></span><h6 class="icon-text">France</h6>
+            <span class="fa fa-location"></span><h6 class="icon-text">Italy</h6>
+            <span class="fa fa-location"></span><h6 class="icon-text">UK</h6>
+            <span class="fa fa-location"></span><h6 class="icon-text">Egypt</h6>
+            <span class="fa fa-location"></span><h6 class="icon-text">India</h6>
+        </div>
+        <br>
+        <div class="col-md-3 col-sm-6">
+          <h4 class="footer-text">Quick Links</h4>
+          <span class="fa fa-arrow-right"></span><h6 class="icon-text">Home</h6>
+          <span class="fa fa-arrow-right"></span><h6 class="icon-text">Book</h6>
+          <span class="fa fa-arrow-right"></span><h6 class="icon-text">Packages</h6>
+          <span class="fa fa-arrow-right"></span><h6 class="icon-text">Services</h6>
+          <span class="fa fa-arrow-right"></span><h6 class="icon-text">Gallery</h6>
+          <span class="fa fa-arrow-right"></span><h6 class="icon-text">Review</h6>
+          <span class="fa fa-arrow-right"></span><h6 class="icon-text">Contact</h6>
+        </div>
+        <br>
+        <div class="col-md-3 col-sm-6">
+          <h4 class="footer-text">Contact Info</h4>
+          <span class="fa fa-phone"></span><h6 class="icon-text">+234 813 191 8048</h6>
+          <span class="fa fa-phone"></span><h6 class="icon-text">+234 813 191 8048</h6>
+          <span class="fa fa-envelope"></span><h6 class="icon-text">abrahamefe307@gmail.com</h6>
+          <span class="fa fa-location"></span><h6 class="icon-text">Lagos Nigeria</h6>
+        </div>
+        <br>
+        <div class="col-md-3 col-sm-6">
+          <h4 class="footer-text">Follow Us</h4>
+          <span class="fa fa-facebook"></span><h6 class="icon-text">Facebook</h6>
+          <span class="fa fa-twitter"></span><h6 class="icon-text">Twitter</h6>
+          <span class="fa fa-instagram"></span><h6 class="icon-text">Instagram</h6>
+          <span class="fa fa-linkedin"></span><h6 class="icon-text">Linkedin</h6>
+          <span class="fa fa-whatsapp"></span><h6 class="icon-text">Whatsapp</h6>
+          <span class="fa fa-pinterest"></span><h6 class="icon-text">Pinterest</h6>
+        </div>
+      </div>
+      <br>
+      <hr size="5" width="100%" color="#666">
+      <h5 class="copyright-text" style="text-align: center; color: #666;">Created By <span class="book-now">ABTECH</span> | All Rights Reserved</h5>
+      <br>
+    </div>
+  </div>
+</footer>
+<script src="bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+<script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
